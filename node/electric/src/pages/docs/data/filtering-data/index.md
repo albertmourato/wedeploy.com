@@ -1167,7 +1167,7 @@ curl -X "GET" "https://<serviceID>-<projectID>.wedeploy.io/movies" \
 ```
 
 <h5 id="fields">fields</h5>
-Sometimes you don't need all fields from an Object, in these cases you can use the `fields` method to get only the fields that you want.
+Sometimes you don't need all fields from a document, in these cases you can use the `fields` method to get only the fields that you want.
 
 ```javascript
 WeDeploy
