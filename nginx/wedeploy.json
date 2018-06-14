@@ -1,0 +1,7 @@
+{
+    "id": "nginx",
+    "healthCheck": {
+        "url": "localhost",
+        "startPeriod": 20
+    }
+}
