@@ -139,7 +139,7 @@ You just need to add the following line to your `build.gradle` file.
 **Gradle**
 
 ```groovy
-compile 'com.wedeploy:com.wedeploy.android:@site.version.api.android@'
+implementation 'com.wedeploy:com.wedeploy.android:@site.version.api.android@'
 ```
 
 ##### Nuances
