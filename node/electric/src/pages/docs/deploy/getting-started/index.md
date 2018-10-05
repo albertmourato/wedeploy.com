@@ -26,7 +26,7 @@ In your terminal, run this command:
 curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | bash
 ```
 
-This will install our [command-line interface](/docs/intro/using-the-command-line/) which is a tool that will help you use the WeDeploy platform.
+This will install our [command-line interface](/docs/intro/using-the-command-line/) which is a tool that will help you use WeDeploy platform and manage your projects and services from your command-line.
 
 <aside>
 
