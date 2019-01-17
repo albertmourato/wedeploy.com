@@ -57,7 +57,6 @@ To learn more about an individual configuration, click on a key in the table bel
 | **[scale](#scale)**                 | Number  | 1       | Maximum number of instances         |
 | **[memory](#scale)**                | Number  | 512     | Amount of computing memory in MB    |
 | **[volumes](#volumes)**             | Object  |         | Persistent database file system     |
-| **[command](#command)**             | Array   |         | Command to be performed when the container starts |
 | **[customDomains](#customDomains)** | Array   |         | Set custom domain names             |
 | **[healthCheck](#healthCheck)**     | Object  |localhost| How the services' health is checked |
 | **[dependencies](#dependencies)**   | Array   |         | Deployment dependency order         |
@@ -362,25 +361,6 @@ However, some services, like databases, are not designed for this kind of deploy
   "zeroDowntime": false
 }
 ```
-
-<h4 id="command">command</h4>
-
-There are some applications that require a command to be started. This property allows you to perform any command you want when the container starts.
-
-```application/json
-{
-  "id": "app",
-  "command": ["npm", "run", "dev"]
-}
-```
-
-<aside>
-
-###### <span class="icon-16-alert"></span> Attention
-
-Note that the property `command` from `wedeploy.json` is different from the `command` used to `healthCheck`.
-
-</aside>
 
 <h4 id="public">public</h4>
 
