@@ -26,12 +26,12 @@ Here's a list of all the environment variables you can use with this service.
 
 | Key | Description |
 | - | - |
-| EMAIL_HOST | Custom SMTP server host |
-| EMAIL_PORT | Custom SMTP server port |
-| EMAIL_USERNAME | Custom SMTP server user |
-| EMAIL_PASSWORD | Custom SMTP server password |
-| EMAIL_PAUSE | Interval in milliseconds between each email sending |
-| EMAIL_SSL | Enables SSL/TLS |
+| WEDEPLOY_EMAIL_HOST | Custom SMTP server host |
+| WEDEPLOY_EMAIL_PORT | Custom SMTP server port |
+| WEDEPLOY_EMAIL_USERNAME | Custom SMTP server user |
+| WEDEPLOY_EMAIL_PASSWORD | Custom SMTP server password |
+| WEDEPLOY_EMAIL_PAUSE | Interval in milliseconds between each email sending |
+| WEDEPLOY_EMAIL_SSL | Enables SSL/TLS |
 
 </div>
 
